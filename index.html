@@ -2,9 +2,33 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Colmar Academy</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Caption:700|PT+Sans:400,700|PT+Serif:400i,700" rel="stylesheet">
+    <link href="resources/css/reset.css" type="text/css" rel="stylesheet">
+    <link href="resources/css/style.css" type="text/css" rel="stylesheet">
+    <link rel="shortcut icon" href="resources/images/favicon.png">
   </head>
   <body>
-
+    <header class="flex bg-white"> <!-- Nav header full-width bg -->
+      <div class="flex container justify-between align-center desktop"> <!-- Contains page width -->
+        <div class="flex align-center"> <!-- Logo + name -->
+          <img src="resources/images/ic-logo.svg" alt="Home">
+          <p class="uppercase">Colmar<span>Academy</span></p>
+        </div>
+        <nav class="flex align-center justify-end small"> <!-- Nav links -->
+          <a>On campus</a>
+          <a>Online</a>
+          <a>For companies</a>
+          <a class="btn rounded">Sign in</a>
+        </nav>
+      </div>
+      <nav class="flex container justify-between align-center mobile">
+        <img src="resources/images/ic-logo.svg" alt="Home">
+        <img src="resources/images/ic-on-campus.svg" alt="On campus">
+        <img src="resources/images/ic-online.svg" alt="Online">
+        <img src="resources/images/ic-login.svg" alt="Login">
+      </nav>
+    </header>
   </body>
 </html>
